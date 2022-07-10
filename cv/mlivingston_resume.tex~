@@ -36,8 +36,16 @@
     \null {\it Senior Data Scientist} \hspace{3pt} (May 2020 -- Present)
     \vspace{2pt}
   \begin{itemize} \itemsep 2.0pt \parskip 2.0pt %reduce space between items
-  \item Trained and deployed a random forest classifier in Scala Spark to detect malware in internal DNS logs as part of an embedding on the security engineering team
-  \item Adapted an outlier-detection model in Java to support multiple use-cases across a variety of Datadog products (APM, RUM, Logs)
+  \item Embedded on the security engineering team to explore applications ML models for security detections
+    \setlength{\parskip}{-2pt} 
+    \begin{itemize}
+      \setlength{\itemsep}{1.0pt}
+    \item Developed, prototyped, and deployed (as a Spark batch ETL job) a novel anomaly detection system for monitoring Kubernetes audit logs
+    \item Trained and deployed a random forest classifier to detect malware in internal DNS logs
+    \end{itemize}
+    \setlength{\parskip}{2.0pt} 
+      
+  \item Adapted an online outlier-detection model in Java to support multiple use-cases across a variety of Datadog products (APM, RUM, Logs)
 
   \end{itemize}
   
